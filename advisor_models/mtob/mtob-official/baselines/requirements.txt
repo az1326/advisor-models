@@ -1,0 +1,7 @@
+langchain==0.0.245
+chromadb
+tiktoken
+nlpretext
+transformers
+sentence-transformers
+evaluate

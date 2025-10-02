@@ -1,0 +1,29 @@
+[project]
+name = "advisor-models"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=3.6.0",
+    "dspy @ git+https://github.com/stanfordnlp/dspy.git@main",
+    "evaluate>=0.4.5",
+    "litellm>=1.74.0",
+    "math-verify>=0.8.0",
+    "pylcs>=0.1.1",
+    "sacrebleu>=2.5.1",
+    "scipy>=1.16.2",
+    "tqdm>=4.67.1",
+    "wandb>=0.22.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.7",
+]
+
+[tool.ruff]
+exclude = [
+    "SkyRL",
+    "advisor_models/rule_arena/RuleArena",
+]

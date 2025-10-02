@@ -1,0 +1,2596 @@
+[
+    {
+        "n_teams": 2,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $160,000,000;",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $15,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player D was the 48th second-round pick of Team E in 2016 NBA draft when he was 22 years old.",
+            "Player D signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A with Player C and D to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $160,000,000;",
+            "Team B has a team salary of $130,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A and Player C to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_no_higher_than_25_percent_for_higher_max_5th_year_eligible_player",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 12th first-round pick of Team B in 2008 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $39,000,000, 5% increase per year) with Team B during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team B has a team salary of $136,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 23rd first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B signs a 2-year contract with Player A providing annual salary $7,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team B signs a 2-year contract with Player B providing annual salary $4,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "contract_length_at_most_3_year_mid_level_exception_for_room_team",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "mid_level_exception_for_room_team",
+            "bi_annual_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $120,000,000;",
+            "Team B has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 44th second-round pick of Team B in 2022 NBA draft when he was 19 years old.",
+            "Player A signed a 2-year contract with Team B providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player A.",
+            "B. Team A provides an offer sheet for Player A in a 3-year contract providing annual salary $11,000,000 in the first Salary Cap Year (2024-2025), 5% increase per year for the first two Salary Cap Years, and $30,000,000 for the third Salary Cap Year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 3,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team B has a team salary of $140,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team A in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA first team.",
+            "Player B was the 17th first-round pick of Team B in 2020 NBA draft when he was 20 years old.",
+            "Player B signed a 4-year contract (annual salary $5,000,000, 5% increase per year, last two years are team option) with Team B during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player B.",
+            "B. Team A provides an offer sheet for Player B in a 3-year contract providing annual salary $30,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team B matches the offer sheet from Team A."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "maximum_salary_for_player_7_to_9_year_service",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "salary_space_consumption_qualifying_veteran_free_agent"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $179,000,000;",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team A in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 4-year contract (annual salary $36,000,000, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team B in 2014 NBA draft when he was 20 years old.",
+            "Player B signed a 4-year contract (annual salary $34,300,000, 5% increase per year) with Team B during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player A for Player B."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "standard_traded_player_exception",
+            "traded_player_exception_250k_reduced_first_apron_level"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 3,
+        "team_situations": [
+            "Team A has a team salary of $170,000,000;",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 33rd second-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 2-year contract (annual salary $6,000,000, 5% increase per year) with Team C during 2022 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team B in 2014 NBA draft when he was 20 years old.",
+            "Player B signed a 2-year contract (annual salary $4,800,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 12th first-round pick of Team D in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing annual salary $8,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A immediately trades Player A and Player C for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "salary_cap_no_exceed_without_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level",
+            "free_agent_sign_contract_cannot_be_traded_within_3_month_or_before_dec_15"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 1st first-round pick of Team A in 2010 NBA draft when he was 20 years old.",
+            "Player A signed a 5-year contract (annual salary $30,000,000, 8% increase per year) with Team A during 2019 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player B providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 5-year contract with Player A providing annual salary $20,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "qualifying_veteran_free_agent_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "defer_compensation_qualifying_veteran_free_agent_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 1st first-round pick of Team A in 2010 NBA draft when he was 20 years old.",
+            "Player A signed a 5-year contract (annual salary $30,000,000, 8% increase per year) with Team A during 2019 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player B providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 4-year contract with Player A providing annual salary $20,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "qualifying_veteran_free_agent_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "defer_compensation_qualifying_veteran_free_agent_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 3,
+        "n_operations": 3,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 1st first-round pick of Team A in 2010 NBA draft when he was 20 years old.",
+            "Player A signed a 5-year contract (annual salary $30,000,000, 8% increase per year) with Team A during 2019 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team B during 2021 Moratorium Period.",
+            "Player C was the 5th first-round pick of Team B in 2016 NBA draft when he was 21 years old.",
+            "Player C signed a 4-year contract (annual salary $25,000,000, 5% increase per year) with Team A during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player B providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 5-year contract with Player A providing annual salary $20,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year.",
+            "C. Team A signs a 5-year contract with Player A providing annual salary $30,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "qualifying_veteran_free_agent_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "defer_compensation_qualifying_veteran_free_agent_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $194,000,000.",
+            "Team B has a team salary of $170,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 2nd first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 4-year contract (annual salary $30,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 5-year contract (annual salary $40,000,000, 5% increase per year) with Team B during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $49,200,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "qualifying_veteran_free_agent_exception",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_not_with_mid_level_exception",
+            "standard_traded_player_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $130,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 2nd first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 4-year contract (annual salary $40,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $25,000,000, 5% increase per year) with Team B during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player B providing annual salary $7,200,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_2_year_taxpayer_mid_level_exception",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "qualifying_veteran_free_agent_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_space_consumption_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "taxpayer_mid_level_exception",
+            "taxpayer_mid_level_exception_hard_cap_second_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $125,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 2nd first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 4-year contract (annual salary $32,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $30,000,000, 5% increase per year) with Team A during 2022 Moratorium Period.",
+            "Player C was the 13th first-round pick of Team C in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player D was the 11th first-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player D signed a 3-year contract (annual salary $14,000,000, 5% increase per year) with Team B during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player B to Team B for Player C and Player D."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "maximum_salary_for_player_10_or_more_year_service",
+            "salary_cap_no_exceed_without_exception",
+            "salary_space_consumption_qualifying_veteran_free_agent",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 2nd first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 4-year contract (annual salary $32,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team B in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player B providing annual salary $36,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "non_taxpayer_mid_level_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_space_consumption_qualifying_veteran_free_agent"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 25th first-round pick of Team A in 2016 NBA draft when he was 20 years old.",
+            "Player A signed a 2-year contract (annual salary $18,000,000, 5% increase per year) with Team A during 2022 Moratorium Period.",
+            "Player B was the 7th first-round pick of Team B in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 4-year contract (annual salary $30,000,000, 8% increase per year) with Team B during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player B providing annual salary $18,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "early_qualifying_veteran_free_agent_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_space_consumption_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $120,000,000.",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 25th first-round pick of Team A in 2016 NBA draft when he was 20 years old.",
+            "Player A signed a 2-year contract (annual salary $18,000,000, 5% increase per year) with Team A during 2022 Moratorium Period.",
+            "Player B was the 7th first-round pick of Team B in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 4-year contract (annual salary $30,000,000, 8% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 11th first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player C signed a 3-year contract (annual salary $16,000,000, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player C to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "early_qualifying_veteran_free_agent_exception",
+            "salary_space_consumption_early_qualifying_veteran_free_agent",
+            "standard_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $170,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 27th first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 1-year contract (annual salary $6,000,000, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player B was the 7th first-round pick of Team B in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 3-year contract (annual salary $16,000,000, 8% increase per year) with Team B during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player B providing annual salary $8,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "contract_length_at_most_2_year_taxpayer_mid_level_exception",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "non_qualifying_veteran_free_agent_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_space_consumption_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $170,000,000.",
+            "Team B has a team salary of $162,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 27th first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 1-year contract (annual salary $6,000,000, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player B was the 7th first-round pick of Team B in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 3-year contract (annual salary $16,000,000, 8% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 13th first-round pick of Team C in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract (annual salary $9,000,000, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player D was the 41th second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player D signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player C and Player D to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "non_qualifying_veteran_free_agent_exception",
+            "salary_space_consumption_non_qualifying_veteran_free_agent",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $192,000,000.",
+            "Team B has a team salary of $162,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 27th first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 2-year contract (annual salary $6,000,000, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player B was the 7th first-round pick of Team C in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 3-year contract (annual salary $14,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 13th first-round pick of Team D in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team A during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player A and Player C to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 3,
+        "n_operations": 3,
+        "team_situations": [
+            "Team A has a team salary of $148,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 27th first-round pick of Team A in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 2-year contract (annual salary $6,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player B was the 7th first-round pick of Team C in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $16,000,000, 5% increase per year) with Team A during 2022 Moratorium Period.",
+            "Player C was the 13th first-round pick of Team D in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team D during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing annual salary $5,150,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 4-year contract with Player B providing annual salary $24,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team A signs a 2-year contract with Player C providing annual salary $4,800,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "C",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "contract_length_at_most_2_year_taxpayer_mid_level_exception",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "taxpayer_mid_level_exception",
+            "taxpayer_mid_level_exception_hard_cap_second_apron_level",
+            "early_qualifying_veteran_free_agent_exception",
+            "salary_space_consumption_early_qualifying_veteran_free_agent"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $148,000,000.",
+            "Team B has a team salary of $160,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player A signed a 2-year contract (annual salary $3,200,000, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2014 NBA draft when he was 21 years old.",
+            "Player B signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team B during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades player A for Player B."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 20 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team A during 2022 Moratorium Period.",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $28,700,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 4-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team B during 2021 Moratorium Period.",
+            "Player A was traded to Team A during the 2022-2023 Regular Season",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $31,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 4-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team B during 2021 Moratorium Period.",
+            "Player A was traded to Team A during the 2021-2022 Regular Season",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $30,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 4-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team B during 2021 Moratorium Period.",
+            "Player A was traded to Team A during the 2022-2023 Regular Season",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $27,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $175,000,000.",
+            "Team B has a team salary of $120,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years and Team C's first-round draft picks in 2027.",
+            "Team B has all its first-round draft picks in the following 7 years."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year) with Team A during 2022 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team D during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player A to Team B for its first-round draft picks in 2026 and 2028.",
+            "B. Team A signs a 3-year contract with Player B providing annual salary $17,800,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "standard_traded_player_exception",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $160,000,000.",
+            "Team B has a team salary of $130,500,000.",
+            "Team A has all its first-round draft picks in the following 7 years and Team C's first-round draft picks in 2027.",
+            "Team B has all its first-round draft picks in the following 7 years."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player B to Team B for Player A and its first-round draft pick in 2025."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "traded_player_exception_for_room_team",
+            "standard_traded_player_exception",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $150,000,000.",
+            "Team B has a team salary of $160,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years and Team C's first-round draft picks in 2027.",
+            "Team B has all its first-round draft picks in the following 7 years."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 35th second-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 2-year contract (annual salary $5,000,000, 8% increase per year) with Team B during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $12,400,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B and its first-round draft pick in 2025."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "standard_traded_player_exception",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $170,000,000.",
+            "Team B has a team salary of $160,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years and Team C's first-round draft picks in 2027.",
+            "Team B has all its first-round draft picks in the following 7 years."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 35th second-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 2-year contract (annual salary $15,000,000, 8% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 21st first-round pick of Team E in 2012 NBA draft when he was 21 years old.",
+            "Player C signed a 2-year contract (annual salary $4,500,000, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $8,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A and Player C to Team B for Player B and its first-round draft pick in 2025."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "traded_player_exception_for_room_team",
+            "qualifying_veteran_free_agent_exception",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $182,000,000.",
+            "Team B has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $20,000,000, 5% increase per year) with Team B during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "standard_traded_player_exception",
+            "non_taxpayer_mid_level_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $178,000,000.",
+            "Team B has a team salary of $157,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team A during 2022 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $20,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 18th first-round pick of Team E in 2017 NBA draft when he was 20 years old.",
+            "Player C signed a 3-year contract (annual salary $10,000,000, 5% increase per year) with Team E during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A trades Player A to Team B for Player B.",
+            "B. Team A signs a 2-year contract with Player C providing annual salary $6,800,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "standard_traded_player_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $142,000,000.",
+            "Team B has a team salary of $126,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years.",
+            "Team B has all its first-round draft picks in the following 7 years except 2025 and Team C's first-round draft pick in 2026."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 8th first-round pick of Team E in 2017 NBA draft when he was 20 years old.",
+            "Player C signed a 3-year contract (annual salary $18,000,000, 5% increase per year) with Team B during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $42,100,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B and Player C and its first-round draft pick in 2026."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $142,000,000.",
+            "Team B has a team salary of $126,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years.",
+            "Team B has all its first-round draft picks in the following 7 years except 2025 and Team C's first-round draft pick in 2027."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 8th first-round pick of Team E in 2017 NBA draft when he was 20 years old.",
+            "Player C signed a 3-year contract (annual salary $18,000,000, 5% increase per year) with Team B during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $42,100,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B and Player C and its first-round draft pick in 2026."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $142,000,000.",
+            "Team B has a team salary of $126,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years.",
+            "Team B has all its first-round draft picks in the following 7 years except 2025 and Team C's first-round draft pick in 2026."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 8th first-round pick of Team E in 2017 NBA draft when he was 20 years old.",
+            "Player C signed a 3-year contract (annual salary $18,000,000, 5% increase per year) with Team B during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $42,100,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B and Player C and its first-round draft picks in 2026 and 2028.",
+            "B. Team A trades its first-round draft pick in 2025 to Team B for its first-round draft pick in 2027."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $142,000,000.",
+            "Team B has a team salary of $126,000,000.",
+            "Team A has all its first-round draft picks in the following 7 years.",
+            "Team B has all its first-round draft picks in the following 7 years except 2025 and Team C's first-round draft pick in 2026."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $25,000,000, 8% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $11,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 8th first-round pick of Team E in 2017 NBA draft when he was 20 years old.",
+            "Player C signed a 3-year contract (annual salary $18,000,000, 5% increase per year) with Team B during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $42,100,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B and Player C and its first-round draft picks in 2026 and 2028.",
+            "B. Team A trades its first-round draft pick in 2025 to Team B for Team C's first-round draft pick in 2026."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "expanded_traded_player_exception",
+            "expanded_traded_player_exception_hard_cap_first_apron_level",
+            "stepien_rule_no_sell_or_no_consecutive_first_round_draft_pick_trade"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $130,000,000.",
+            "Team B has a team salary of $140,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 33th second-round pick of Team B in 2022 NBA draft when he was 20 years old and signed a 2-year contract with Team B providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player A.",
+            "B. Team A provides Player A with an offer sheet - a 3-year contract providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025), 5% increase per year for the first two Salary Cap Years, and $30,000,000 for the third Salary Cap Year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $130,000,000.",
+            "Team B has a team salary of $140,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 24th second-round pick of Team B in 2022 NBA draft when he was 21 years old and signed a 2-year contract with Team B providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player A.",
+            "B. Team A provides Player A with an offer sheet - a 4-year contract providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025), 5% increase per year for the first two Salary Cap Years, and $30,000,000 for the third Salary Cap Year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 3,
+        "team_situations": [
+            "Team A has a team salary of $128,000,000.",
+            "Team B has a team salary of $162,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 33rd second-round pick of Team B in 2022 NBA draft when he was 20 years old.",
+            "Player A signed a 2-year contract with Team B providing the minimum salary during 2022 Moratorium Period.",
+            "Player B was the 44th second-round pick of Team C in 2017 NBA draft when he was 22 years old",
+            "Player B signed a 2-year contract with Team C providing the minimum salary during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B signes with Player B with a 1-year contract providing minimum salary.",
+            "B. Team B provides a qualifying offer for Player A.",
+            "C. Team A provides Player A with an offer sheet - a 4-year contract providing annual salary $11,000,000 in the first Salary Cap Year (2024-2025), 5% increase per year.",
+            "D. Team B matches the offer sheet for Player A."
+        ],
+        "answer": true,
+        "illegal_operation": "C",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "minimum_player_salary_exception",
+            "contract_length_at_most_2_year_minimum_player_salary_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_4th_year_maximum_if_3_year",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year",
+            "early_qualifying_veteran_free_agent_exception",
+            "minimum_player_salary_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000.",
+            "Team B has a team salary of $173,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 20th first-round pick of Team A in 2017 NBA draft when he was 21 years old and signed a 3-year contract with Team A (annual salary $15,000,000, 5% increase per year) during 2021 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to the All-NBA first Team.",
+            "Player B was the 5th first-round pick of Team A in 2014 NBA draft when he was 20 years old.",
+            "Player B signed a 4-year contract with Team B (annual salary $25,000,000, 4% increase per year) during 2022 Moratorium Period.",
+            "Player C was the 11th first-round pick of Team E in 2010 NBA draft when he was 22 years old.",
+            "Player C signed a 3-year contract (annual salary $5,000,000) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $23,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B.",
+            "B. Team B signs a 1-year contract with Player C providing minimum annual salary in the first Salary Cap Year (2024-2025)."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "contract_length_at_most_2_year_minimum_player_salary_exception",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_space_consumption_qualifying_veteran_free_agent",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "qualifying_veteran_free_agent_exception",
+            "minimum_player_salary_exception"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team B has a team salary of $120,000,000;",
+            "Team F has a team salary of $80,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team B in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player B was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $39,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player C was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team F during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team F signs a 2-year contract with Player C providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 4-year contract with Player A providing annual salary $22,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team B signs a 4-year contract with Player B providing annual salary $16,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "C",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team D has a team salary of $90,000,000;",
+            "Team E has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team E in 2018 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player B was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player C was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team D signs a 2-year contract with Player C providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team E signs a 4-year contract with Player B providing annual salary $17,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team A signs a 4-year contract with Player A providing annual salary $21,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team D has a team salary of $90,000,000;",
+            "Team E has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team E in 2018 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player C was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2020 Moratorium Period.",
+            "Player G was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player G signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team A during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team D signs a 2-year contract with Player C providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 3-year contract with Player A providing annual salary $21,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team E signs a 4-year contract with Player G providing annual salary $36,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "C",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team D has a team salary of $90,000,000;",
+            "Team K has a team salary of $101,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team K in 2018 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player C was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2020 Moratorium Period.",
+            "Player G was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player G signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team A during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team K signs a 4-year contract with Player G providing annual salary $36,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team D signs a 2-year contract with Player C providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team A signs a 3-year contract with Player A providing annual salary $21,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "K",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team C has a team salary of $86,000,000;",
+            "Team K has a team salary of $121,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 10th first-round pick of Team K in 2018 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player C was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team C during 2020 Moratorium Period.",
+            "Player G was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player G signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team A during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team K signs a 4-year contract with Player G providing annual salary $17,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team C signs a 2-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team A signs a 3-year contract with Player A providing annual salary $21,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "K",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team D has a team salary of $86,000,000;",
+            "Team G has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 14th first-round pick of Team G in 2018 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player C was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2020 Moratorium Period.",
+            "Player G was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player G signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team A during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team G signs a 4-year contract with Player G providing annual salary $17,500,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team D signs a 3-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team A signs a 3-year contract with Player A providing annual salary $21,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "G",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team D has a team salary of $86,000,000;",
+            "Team E has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player X was the 14th first-round pick of Team E in 2018 NBA draft when he was 19 years old.",
+            "Player X signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player P was the 12th first-round pick of Team A in 2008 NBA draft when he was 19 years old.",
+            "Player P signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "Player K was the 16th first-round pick of Team A in 2017 NBA draft when he was 19 years old.",
+            "Player K signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team D signs a 2-year contract with Player K providing annual salary $11,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team A signs a 2-year contract with Player X providing annual salary $11,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team E signs a 4-year contract with Player P providing annual salary $18,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "C",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team D has a team salary of $106,000,000;",
+            "Team G has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player C was the 16th first-round pick of Team C in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 4-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2020 Moratorium Period.",
+            "Player X was the 12th first-round pick of Team E in 2008 NBA draft when he was 19 years old.",
+            "Player X signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team C during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team G signs a 4-year contract with Player X providing annual salary $17,500,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team D signs a 3-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "G",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team F has a team salary of $120,000,000;",
+            "Team D has a team salary of $70,000,000."
+        ],
+        "player_situations": [
+            "Player C was the 26th first-round pick of Team C in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract (annual salary $10,000,000, 5% increase per year) with Team D during 2022 Moratorium Period.",
+            "Player X was the 12th first-round pick of Team E in 2008 NBA draft when he was 19 years old.",
+            "Player X signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team C during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team F signs a 4-year contract with Player X providing annual salary $18,500,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team D signs a 2-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "F",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team K has a team salary of $120,000,000;",
+            "Team P has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player C was the 26th first-round pick of Team C in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract (annual salary $10,000,000, 5% increase per year) with Team P during 2022 Moratorium Period.",
+            "Player X was the 12th first-round pick of Team E in 2008 NBA draft when he was 19 years old.",
+            "Player X signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team C during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team P signs a 2-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team K signs a 4-year contract with Player X providing annual salary $16,600,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "K",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team K has a team salary of $100,000,000;",
+            "Team P has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player C was the 26th first-round pick of Team C in 2017 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract (annual salary $12,000,000, 5% increase per year) with Team P during 2022 Moratorium Period.",
+            "Player X was the 12th first-round pick of Team E in 2008 NBA draft when he was 19 years old.",
+            "Player X signed a 4-year contract (annual salary $35,000,000, 5% increase per year) with Team C during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team K signs a 4-year contract with Player X providing annual salary $35,500,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team P signs a 2-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "K",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team D has a team salary of $115,000,000;",
+            "Team G has a team salary of $149,000,000;"
+        ],
+        "player_situations": [
+            "Player A was the 10th first-round pick of Team C in 2018 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team G during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 7th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $15,000,000, 5% increase per year) with Team D during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team G during 2023 Moratorium Period.",
+            "Player D was the 28th second-round pick of Team E in 2016 NBA draft when he was 22 years old.",
+            "Player D signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team G during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team G signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A with Player C and D to Team D for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "G",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "qualified_veteran_free_agent_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level",
+            "traded_player_exception_only_one_minimum_traded_player_under_conditions"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team E has a team salary of $125,000,000;",
+            "Team D has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 44th second-round pick of Team D in 2022 NBA draft when he was 19 years old.",
+            "Player A signed a 2-year contract with Team D providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team D provides a qualifying offer for Player A.",
+            "B. Team E provides an offer sheet for Player A in a 3-year contract providing annual salary equal to 9.12% of the Salary Cap in the first Salary Cap Year (2024-2025), 5% increase per year for the first two Salary Cap Years, and $25,000,000 for the third Salary Cap Year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team D has a team salary of $100,000,000;",
+            "Team F has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player C was the 30th second-round pick of Team F in 2022 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract with Team F providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team F provides a qualifying offer for Player C.",
+            "B. Team D provides an offer sheet for Player C in a 3-year contract providing annual salary $11,000,000 in the first Salary Cap Year (2024-2025), 5% increase per year for the first two Salary Cap Years, and $25,000,000 for the third Salary Cap Year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "D",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team F has a team salary of $90,000,000;",
+            "Team P has a team salary of $80,000,000."
+        ],
+        "player_situations": [
+            "Player C was the 30th second-round pick of Team F in 2022 NBA draft when he was 19 years old.",
+            "Player C signed a 2-year contract with Team F providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team F provides a qualifying offer for Player C.",
+            "B. Team P provides an offer sheet for Player C in a 4-year contract providing annual salary equal to 9.12% of the Salary Cap in the first Salary Cap Year (2024-2025), 5% increase per year for the first two Salary Cap Years, $25,000,000 for the third Salary Cap Year, and $26,000,000 for the fourth Salary Cap Year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_4th_year_maximum_if_first_3_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team E has a team salary of $136,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 25th first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player C was the 17th second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player C signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team E signs a 3-year contract with Player A providing annual salary $7,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team E signs a 2-year contract with Player C providing annual salary $4,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_3_year_mid_level_exception_for_room_team",
+            "contract_length_at_most_2_year_bi_annual_exception",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "mid_level_exception_for_room_team",
+            "bi_annual_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team C has a team salary of $142,000,000;",
+            "Team B has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player E was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player E signed a 4-year contract (annual salary $15,000,000, 5% increase per year) with Team C during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player E was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $30,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team C during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team C signs a 3-year contract with Player E providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player E and Player C to Team B for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "C",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "aggregated_standard_traded_player_exception",
+            "expanded_traded_player_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_no_higher_than_25_percent_for_higher_max_5th_year_eligible_player",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 3,
+        "team_situations": [
+            "Team E has a team salary of $100,000,000;",
+            "Team B has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team E in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 1-year contract (annual salary $10,000,000) with Team E during 2023 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA first team.",
+            "Player B was the 17th first-round pick of Team B in 2020 NBA draft when he was 20 years old.",
+            "Player B signed a 4-year contract (annual salary $5,000,000, 5% increase per year, last two years are team option) with Team B during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player B.",
+            "B. Team E provides an offer sheet for Player B in a 3-year contract providing annual salary $30,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team B matches the offer sheet from Team E."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "qualifying_veteran_free_agent_exception",
+            "salary_space_consumption_non_qualifying_veteran_free_agent"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team E has a team salary of $145,000,000.",
+            "Team B has a team salary of $160,000,000.",
+            "Team C has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team E during 2022 Moratorium Period.",
+            "Player A just decided not to exercise the player option.",
+            "Player B was the 30th first-round pick of Team F in 2020 NBA draft when he was 22 years old.",
+            "Player B signed a 2-year contract (annual salary $10,000,000, 5% increase per year) with Team F during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B signs a 2-year contract with Player B providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team E signs a 3-year contract with Player A providing annual salary $32,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level"
+        ]
+    },
+    {
+        "n_teams": 3,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team B has a team salary of $90,000,000.",
+            "Team D has a team salary of $145,000,000.",
+            "Team C has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player E was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player E signed a 3-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team D during 2022 Moratorium Period.",
+            "Player E just decided not to exercise the player option.",
+            "Player C was the 30th first-round pick of Team F in 2020 NBA draft when he was 22 years old.",
+            "Player C signed a 2-year contract (annual salary $10,000,000, 5% increase per year) with Team F during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B signs a 2-year contract with Player C providing annual salary $12,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team D signs a 3-year contract with Player E providing annual salary $30,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "D",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team E has a team salary of $102,000,000.",
+            "Team G has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team E during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $20,000,000, 5% increase per year) with Team G during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team E signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 6% increase per year, and immediately trades Player A to Team G for Player B."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "E",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $160,000,000;",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $15,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player D was the 48th second-round pick of Team E in 2016 NBA draft when he was 22 years old.",
+            "Player D signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing annual salary $38,000,000 in the first Salary Cap Year (2024-2025) and 7% increase per year, execute the transaction in in January of 2025."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "qualifying_veteran_free_agent_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $160,000,000;",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $15,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player D was the 48th second-round pick of Team E in 2016 NBA draft when he was 22 years old.",
+            "Player D signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $30,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A with Player C and $5,000,000 to Team B for Player B."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level",
+            "traded_player_exception_only_one_minimum_traded_player_under_conditions"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 4,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $160,000,000;",
+            "Team B has a team salary of $120,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $15,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $18,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period.",
+            "Player D was the 48th second-round pick of Team E in 2016 NBA draft when he was 22 years old.",
+            "Player D signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player C providing annual salary $25,000,000 in the first Salary Cap Year (2024-2025) and 9% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "early_qualifying_veteran_free_agent_exception",
+            "maximum_salary_for_player_10_or_more_year_service"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $135,000,000;",
+            "Team B has a team salary of $130,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team C in 2016 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2020 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA second team.",
+            "Player B was the 5th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 4-year contract (annual salary $23,000,000, 5% increase per year) with Team B during 2023 Moratorium Period.",
+            "Player C was the 24th first-round pick of Team C in 2013 NBA draft when he was 20 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team A during 2023 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $23,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A and Player C to Team B for Player B."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "qualifying_veteran_free_agent_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception",
+            "aggregated_standard_traded_player_exception",
+            "aggregated_traded_player_exception_hard_cap_second_apron_level"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 12th first-round pick of Team B in 2008 NBA draft when he was 19 years old.",
+            "Player A signed a 4-year contract (annual salary $39,000,000, 5% increase per year) with Team A during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 4-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 7% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_10_or_more_year_service",
+            "defer_compensation_38_year_old_qualifying_veteran_free_agent_38_year_old"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team B has a team salary of $136,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 23rd first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team D during 2021 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing annual salary $7,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "B. Team B signs a 2-year contract with Player B providing annual salary $4,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "non_taxpayer_mid_level_exception",
+            "non_taxpayer_mid_level_exception_hard_cap_first_apron_level",
+            "taxpayer_mid_level_exception",
+            "contract_length_at_most_2_year_taxpayer_mid_level_exception",
+            "contract_length_at_most_4_year_non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team B has a team salary of $136,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 23rd first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B signs a 2-year contract with Player A providing annual salary $7,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "mid_level_exception_for_room_team",
+            "contract_length_at_most_3_year_mid_level_exception_for_room_team"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team B has a team salary of $142,000,000.",
+            "Team A signs 13 players before the new season.",
+            "Team B signs 14 players before the new season."
+        ],
+        "player_situations": [
+            "Player A was the 23rd first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team C during 2021 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period.",
+            "Player C was the 36st second-round pick of Team E in 2018 NBA draft when he was 21 years old.",
+            "Player C signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team E during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing a minimum applicable player salary, 5% increase per year and signs a contract 2-year contract with Player B providing a minimum applicable player salary, 5% increase per year.",
+            "B. Team B signs a 3-year contract with Player C providing a minimum applicable player salary, 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "B",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "minimum_player_salary_exception",
+            "contract_length_at_most_2_year_minimum_player_salary_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team B has a team salary of $142,000,000.",
+            "Team A signs 13 players before the new season.",
+            "Team B signs 14 players before the new season."
+        ],
+        "player_situations": [
+            "Player A was the 23rd first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team C during 2021 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period.",
+            "Player C was the 36st second-round pick of Team E in 2018 NBA draft when he was 21 years old.",
+            "Player C signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team E during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing a minimum applicable player salary, 5% increase per year and signs a contract 3-year contract with Player B providing a minimum applicable player salary, 5% increase per year.",
+            "B. Team B signs a 2-year contract with Player C providing a minimum applicable player salary, 5% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "minimum_player_salary_exception",
+            "contract_length_at_most_2_year_minimum_player_salary_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $176,000,000;",
+            "Team B has a team salary of $142,000,000.",
+            "Team A signs 13 players before the new season.",
+            "Team B signs 14 players before the new season."
+        ],
+        "player_situations": [
+            "Player A was the 23rd first-round pick of Team C in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 3-year contract (annual salary $15,000,000, 5% increase per year) with Team C during 2021 Moratorium Period.",
+            "Player B was the 31st second-round pick of Team D in 2017 NBA draft when he was 21 years old.",
+            "Player B signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team D during 2022 Moratorium Period.",
+            "Player C was the 36st second-round pick of Team E in 2018 NBA draft when he was 21 years old.",
+            "Player C signed a 2-year contract (annual salary $4,000,000, 5% increase per year) with Team E during 2022 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 2-year contract with Player A providing a minimum applicable player salary, 5% increase per year and signs a contract 2-year contract with Player B providing a minimum applicable player salary, 5% increase per year.",
+            "B. Team B signs a 2-year contract with Player C providing a minimum applicable player salary, 5% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "minimum_player_salary_exception",
+            "contract_length_at_most_2_year_minimum_player_salary_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $120,000,000;",
+            "Team B has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 44th second-round pick of Team B in 2022 NBA draft when he was 19 years old.",
+            "Player A signed a 2-year contract with Team B providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player A.",
+            "B. Team A provides an offer sheet for Player A in a 3-year contract providing annual salary equal to 9.12% \u00d7 Salary Cap in the first Salary Cap Year (2024-2025), 8% increase per year for the first two Salary Cap Years, and $30,000,000 for the third Salary Cap Year."
+        ],
+        "answer": true,
+        "illegal_operation": "B",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $120,000,000;",
+            "Team B has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 44th second-round pick of Team B in 2022 NBA draft when he was 19 years old.",
+            "Player A signed a 2-year contract with Team B providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player A.",
+            "B. Team A provides an offer sheet for Player A in a 1-year contract providing annual salary $11,000,000 in the first Salary Cap Year (2024-2025)."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 1,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $120,000,000;",
+            "Team B has a team salary of $90,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 44th second-round pick of Team B in 2022 NBA draft when he was 19 years old.",
+            "Player A signed a 2-year contract with Team B providing the minimum salary."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player A.",
+            "B. Team A provides an offer sheet for Player A in a 3-year contract providing annual salary equal to 9.12% \u00d7 Salary Cap in the first two Salary Cap Year (2024-2026), and $30,000,000 for the third Salary Cap Year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "salary_cap_no_exceed_without_exception",
+            "offer_sheet_for_1_or_2_year_service_player_no_more_than_mid_level_in_first_2_year",
+            "offer_sheet_for_1_or_2_year_service_player_3rd_year_maximum_if_first_2_year_maximum",
+            "offer_sheet_for_1_or_2_year_service_player_average_salary_more_than_2_year"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 2,
+        "n_operations": 3,
+        "team_situations": [
+            "Team A has a team salary of $100,000,000;",
+            "Team B has a team salary of $140,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 3rd first-round pick of Team A in 2016 NBA draft when he was 18 years old.",
+            "Player A signed a 2-year contract (annual salary $20,000,000, 5% increase per year) with Team A during 2022 Moratorium Period.",
+            "In 2023-24 Salary Cap Year Player A was named to All-NBA first team.",
+            "Player B was the 17th first-round pick of Team B in 2020 NBA draft when he was 20 years old.",
+            "Player B signed a 4-year contract (annual salary $5,000,000, 5% increase per year, last two years are team option) with Team B during 2020 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team B provides a qualifying offer for Player B.",
+            "B. Team A provides an offer sheet for Player B in a 3-year contract providing annual salary $10,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year.",
+            "C. Team B matches the offer sheet from Team A."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "maximum_salary_for_player_7_to_9_year_service",
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "qualifying_veteran_free_agent_exception",
+            "maximum_salary_for_player_less_than_7_year_service",
+            "salary_space_consumption_early_qualifying_veteran_free_agent"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $152,000,000.",
+            "Team B has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $20,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 48th second-round pick of Team B in 2016 NBA draft when he was 22 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 7% increase per year, and immediately trades Player A to Team B for Player B.",
+            "B. Team B signs a 3-year contrct with Player C proving annual salary $25,000,000 in the first Salary Cap Year (2024-2025) and 7% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "standard_traded_player_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $152,000,000.",
+            "Team B has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $20,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 48th second-round pick of Team B in 2016 NBA draft when he was 22 years old.",
+            "Player C signed a 2-year contract (minimum applicable player salary, 5% increase per year) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 6% increase per year, and immediately trades Player A to Team B for Player B.",
+            "B. Team B signs a 3-year contrct with Player C proving annual salary $25,000,000 in the first Salary Cap Year (2024-2025) and 7% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "standard_traded_player_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 2,
+        "n_players": 3,
+        "n_operations": 2,
+        "team_situations": [
+            "Team A has a team salary of $152,000,000.",
+            "Team B has a team salary of $100,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 7th first-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $24,000,000, 5% increase per year) with Team A during 2021 Moratorium Period.",
+            "Player B was the 15th first-round pick of Team D in 2014 NBA draft when he was 19 years old.",
+            "Player B signed a 3-year contract (annual salary $20,000,000, 5% increase per year) with Team B during 2022 Moratorium Period.",
+            "Player C was the 48th second-round pick of Team B in 2016 NBA draft when he was 22 years old.",
+            "Player C signed a 3-year contract (minimum applicable player salary, 5% increase per year) with Team B during 2021 Moratorium Period."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 5% increase per year, and immediately trades Player A to Team B for Player B.",
+            "B. Team B signs a 3-year contrct with Player C proving annual salary $25,000,000 in the first Salary Cap Year (2024-2025) and 7% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "qualifying_veteran_free_agent_exception",
+            "standard_traded_player_exception",
+            "sign_and_trade_3_to_4_year",
+            "sign_and_trade_assignee_team_has_room",
+            "sign_and_trade_assigner_traded_player_exception_hard_cap_second_apron_level",
+            "sign_and_trade_hard_cap_first_apron_level",
+            "sign_and_trade_not_with_mid_level_exception",
+            "sign_and_trade_qualifying_free_agent_half_salary_for_traded_player_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team A during 2022 Moratorium Period.",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $35,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 3-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team A during 2022 Moratorium Period.",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $25,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": false,
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_for_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "early_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    },
+    {
+        "n_teams": 1,
+        "n_players": 1,
+        "n_operations": 1,
+        "team_situations": [
+            "Team A has a team salary of $145,000,000."
+        ],
+        "player_situations": [
+            "Player A was the 37th second-round pick of Team C in 2015 NBA draft when he was 21 years old.",
+            "Player A signed a 2-year contract (annual salary $16,000,000, 5% increase per year, last year is player option) with Team A during 2023 Moratorium Period.",
+            "Player A just decided not to exercise the player option."
+        ],
+        "operations": [
+            "A. Team A signs a 3-year contract with Player A providing annual salary $25,000,000 in the first Salary Cap Year (2024-2025) and 8% increase per year."
+        ],
+        "answer": true,
+        "illegal_operation": "A",
+        "problematic_team": "A",
+        "relevant_rules": [
+            "contract_length_at_most_4_year_except_qualifying_veteran_free_agent_5_year",
+            "salary_cap_no_exceed_without_exception",
+            "maximum_salary_for_player_7_to_9_year_service",
+            "salary_increase_and_decrease_ratio_except_qualiyfing_or_early_qualifying_veteran_free_agent",
+            "non_qualifying_veteran_free_agent_exception",
+            "non_taxpayer_mid_level_exception"
+        ]
+    }
+]
